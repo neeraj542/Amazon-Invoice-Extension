@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 500px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+#fileInput {
+    margin-bottom: 10px;
+}
+
+#processBtn {
+    padding: 5px 10px;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 14px;
+}

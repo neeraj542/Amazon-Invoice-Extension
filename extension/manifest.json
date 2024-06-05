@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Invoice Processor",
+  "version": "1.0",
+  "description": "Extract data from Amazon invoices and process it.",
+  "permissions": ["activeTab", "downloads", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://localhost:5000/process_pdf"  
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/img1.jpg",
+      "48": "images/img2.jpg",
+      "128": "images/img3.jpg"
+    }
+  },
+  "icons": {
+    "16": "images/img1.jpg",
+    "48": "images/img2.jpg",
+    "128": "images/img3.jpg"
+  }
+}
